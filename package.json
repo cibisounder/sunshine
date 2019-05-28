@@ -1,6 +1,8 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "flow": "flow",
+    "flow-stop": "flow stop",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
+    "flow-bin": "^0.98.1",
     "jest-expo": "^32.0.0"
   },
   "private": true
